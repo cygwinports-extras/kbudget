@@ -1,0 +1,7 @@
+inherit kde3
+
+DESCRIPTION="KDE personal finance management program"
+HOMEPAGE="http://www.garandnet.net/kbudget/"  # defunct
+# SRC_URI="http://www.garandnet.net/kbudget/downloads/${P}.tar.bz2"
+SRC_URI="mirror://gentoo/${P}.tar.bz2"
+PATCH_URI="mirror://portage/app-office/${PN}/files/${P}-gcc43.patch"
